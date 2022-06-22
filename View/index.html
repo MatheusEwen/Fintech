@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta  name="description" content="BOOTSTRAP">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/csslogin.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-5 mb-2 ">
+      <header>
+        <a href="/View/index.html"><img class="logo" src="../imgs/logo.svg" alt="imagem_logo"></a>
+        <nav>
+            <button type="submit" class="btnProprio link btn"> <b>Entrar</b></button>
+            <button type="submit" class="btnProprio link btn"> <b>Cadastrar</b></button>
+        </nav>
+      </header>
+    </div>
+    <div>
+        <h2>Entre na sua conta</h2>  
+      <form class="form-horizontal">
+          <div class="row mb-3">
+            <label for="email" class="control-label">Email:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="row mb-3">
+            <label for="pwd" class="control-label">Senha:</label>
+            <input type="password" id="pwd"  class="form-control">
+          </div>
+          <div class="row mb-3">
+            <label><input type="checkbox">Lembre-me</label>
+          </div>
+            <div class="submit">
+              <button type="submit" class="btn btnProprio"><b><a class="proximaTela" href="dashboard.html">Entrar</a></b></button>
+            </div>
+      </form>
+    </div>
+  </div>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
